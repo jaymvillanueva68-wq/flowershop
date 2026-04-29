@@ -1,0 +1,108 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Explore Flowers.">
+    <title>Indoor Plants - Flowers sir</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(to bottom, #f8f9ff, #e8f5e8);
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #2e7d32;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+        .byline {
+            text-align: center;
+            color: #666;
+            font-style: italic;
+            margin-bottom: 40px;
+        }
+        .plant {
+            margin: 40px 0;
+            padding: 20px;
+            border-left: 5px solid #4caf50;
+            background: #f9f9f9;
+        }
+        h2 {
+            color: #2e7d32;
+            margin-bottom: 10px;
+        }
+        .price {
+            font-size: 1.3em;
+            color: #d32f2f;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        img {
+            max-width: 100%;
+            height: 250px;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+        }
+        .nav {
+            text-align: center;
+            margin: 30px 0;
+        }
+        .nav a {
+            background: #4caf50;
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 25px;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+        .nav a:hover {
+            background: #388e3c;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #666;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🌸 Indoor Plants</h1>
+        <p class="byline">Flowers sir - Fresh flowers & plants for your home</p>
+        
+        <!-- PEACE LILY -->
+        <div class="plant">
+            <h2>Peace Lily</h2>
+            <p>The Peace Lily, known for its elegant white flowers, is a popular choice for indoor spaces.</p>
+            <p class="price">Price: $15</p>
+            <img src="https://edube.org/uploads/media/default/0001/04/spathiphyllum-peace-lily.jpg" alt="Peace Lily">
+        </div>
+
+
+        <div class="plant">
+            <h2>Zanzibar Gem</h2>
+            <p>The Zanzibar Gem, with its glossy green foliage, is a low-maintenance indoor plant perfect for beginners.</p>
+            <p class="price">Price: $20</p>
+            <img src="https://edube.org/uploads/media/default/0001/04/zamioculcas-zanzibar-gem.jpg" alt="Zanzibar Gem">
+        </div>
+
+        <div class="nav">
+            <a href="about.html">About Us →</a>
+        </div>
+
+    </div>
+</body>
+</html>
